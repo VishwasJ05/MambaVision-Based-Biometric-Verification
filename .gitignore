@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large local datasets
+data_e_raw/
+data_e_clean/
+data_real/
+data_real_split/
+
+# Model checkpoints and tensors
+*.pt
+*.pth
+
+# Training/evaluation artifacts
+training_metrics.csv
+training_summary.json
+training_metrics_from_log.csv
+loss_curve.png
+accuracy_curve.png
+training_curves.png
+loss_curve_from_log.png
+accuracy_curve_from_log.png
+training_curves_from_log.png
+
+# Local logs
+*.log
